@@ -1,0 +1,27 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 2px solid #ffff;
+  align-items: center;
+
+  span {
+    background-color: white;
+    display: inline-block;
+  }
+
+  &__button,
+  span,
+  &__text-completed {
+    cursor: pointer;
+  }
+
+  &__button {
+    background-color: red;
+    color: #ffff;
+  }
+
+  &__text-completed:not(button) {
+    text-decoration: line-through;
+  }
+}

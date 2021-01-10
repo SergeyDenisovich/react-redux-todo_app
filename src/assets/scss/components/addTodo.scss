@@ -1,0 +1,14 @@
+.input-field {
+  display: flex;
+  width: 100%;
+  padding: 15px 0;
+
+  &__input {
+    flex: 50%;
+  }
+
+  &__button {
+    background-color: green;
+    color: #ffff;
+  }
+}

@@ -1,0 +1,16 @@
+.filter-block {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+
+    &-active {
+      background-color: green;
+      font-weight: bold;
+    }
+  }
+}
